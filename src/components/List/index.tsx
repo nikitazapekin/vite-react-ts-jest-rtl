@@ -5,6 +5,7 @@ import Card from '../Card';
 const List = ({ users, handleNext, handlePrev, isFetching }: MyComponentProps) => {
 	return (
 		<section className="list">
+			<button className='ttt'>efeff</button>
 			<div className="list__container">
 				{isFetching && <Spinner />}
 				<div className="user__list">
