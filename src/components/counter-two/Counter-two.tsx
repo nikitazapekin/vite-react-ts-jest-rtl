@@ -1,3 +1,4 @@
+import "./index.scss"
 type CounterTwoProps = {
   count: number;
   incrementCount: (value: number) => void;

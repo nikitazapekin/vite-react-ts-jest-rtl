@@ -1,0 +1,27 @@
+.user {
+	padding: 40px 20px;
+	font-size: 32px;
+	background-color: rgb(218, 156, 41);
+	display: flex;
+    transition: 0.5s ease-in-out;
+	align-items: flex-start;
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 20px;
+	}
+
+	&__logo {
+		border-radius: 50%;
+		width: 42%;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: #000;
+	}
+}
+.user:hover {
+    background-color: #92411b;
+}

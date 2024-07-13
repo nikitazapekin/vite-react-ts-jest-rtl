@@ -22,7 +22,7 @@ describe('Test function', () => {
         const result = Test(a, b);
 
         // Assert
-        expect(result).toBe(-30); // Ожидаем, что сумма a и b равна -3
+        expect(result).toBe(-3); // Ожидаем, что сумма a и b равна -3
     });
 
     // Добавьте другие тесты по необходимости
